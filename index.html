@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GOT Food</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet"><!--ROCK SALT-->
+    <link href="https://fonts.googleapis.com/css2?family=Caudex:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet"><!--CAUDEX (medieval)-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <header id="header" class="fixed-top">
+        <div class="navbar navbar-expand-lg">
+            <div class="container">
+                <div class="logo">
+                    <img class="logo-targ" src="img/ATT/logo-targaryen (2).png" width="150px" />
+                </div>
+                <button data-bs-theme="dark" type="button" class="navbar-toggler" data-bs-toggle="collapse"
+                    data-bs-target="#menu" class="active">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <nav class="collapse navbar-collapse justify-content-end text-center" id="menu">
+                    <ul class="nav navbar-nav nav-pills d-flex">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#sobre-o-restaurante">Início</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#eventos">Eventos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#cardapio">Cardápio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contato">Contato</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="#header">
+        <section id="sobre-o-restaurante">
+            <div id="carousel-got" class="carousel slide carousel-fade">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel-got" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carousel-got" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carousel-got" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item item-count first-item active">
+                        <div class="shadow-Y">
+                            <div class="shadow-X">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h2>House of the Burger</h2>
+                                    <h5>O melhor restaurante temático para quem é fã do universo Game Of Thrones</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item item-count second-item">
+                        <div class="shadow-Y">
+                            <div class="shadow-X">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h2>Comidas temáticas</h2>
+                                    <h5>Viva a experiência de vencer a fome como um verdadeiro guerreiro Targaryen</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item item-count third-item">
+                        <div class="shadow-Y">
+                            <div class="shadow-X">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h2>Exemplo</h2>
+                                    <h5>Teste</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel-got" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel-got" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+        <section id="eventos">
+            <div class="titulo titulo-eventos">
+
+            </div>
+        </section>
+        <section id="cardapio">
+            <div class="titulo titulo-cardapio"></div>
+            <!--TESTE ÁREA DE CARDÁPIO-->
+            <div class="container-food d-flex flex-column align-items-center">
+                <nav class="nav nav-card nav-pills">
+                    <button data-bs-toggle="tab" data-bs-target="#lanches" class="nav-link nav-cardapio active" type="button">LANCHES</button>
+                    <button data-bs-toggle="tab" data-bs-target="#temp2" class="nav-link nav-cardapio" type="button">BEBIDAS</button>
+                    <button data-bs-toggle="tab" data-bs-target="#temp3" class="nav-link nav-cardapio" type="button">TESTE</button>
+                    <button data-bs-toggle="tab" data-bs-target="#temp4" class="nav-link nav-cardapio" type="button">TESTE</button>
+                </nav>
+                <div class="tab-content text-black">
+                    <div id="lanches" class="tab-pane active container-grid">
+                        <!--TESTE DE SESSÕES-->
+                        <div class="container-card balerion-card">
+                            <div class="burger balerion-burger">
+                                <img src="img/ATT/burger/balerion-burger.png" height="220px" alt="">
+                            </div>
+                            <div class="descricao">
+                                <h3>Nosso gigante de escamas negras!</h3>
+                                <p>Apresentamos Balerion, o maior que já habitou em Westeros!</p>
+                                <div class="composicao">
+                                    <p><i class="bi bi-shield-fill-check"> </i>Pão especial "black edition"</p>
+                                    <p><i class="bi bi-shield-fill-check"> </i>150g de carne</p>
+                                    <p><i class="bi bi-shield-fill-check"> </i>Barbecue</p>
+                                    <p><i class="bi bi-shield-fill-check"> </i>Queijo prato</p>
+                                    <p><i class="bi bi-shield-fill-check"> </i>Alface</p>
+                                    <p><i class="bi bi-shield-fill-check"> </i>Tomate</p>
+                                    <p><i class="bi bi-shield-fill-check"> </i>Molho especial da Casa</p>
+                                </div>
+                            </div>
+                            <div class="balerion"></div>
+                        </div>
+                        <div class="container-card vhagar-card">
+                            <div class="vhagar"></div>
+                            <div class="descricao">
+                                <p>Vhagar é o maior Dragão vivo em Westeros e o maior dragão desde Balerion. Sendo assim, nossa
+                                    "Vhagar" não poderia ser diferente:</p>
+                                <div class="composicao">
+                                    <p><i class="bi bi-shield-fill-check"> </i>Pão brioche"</p>
+                                    <p><i class="bi bi-shield-fill-check"> </i>150g de carne</p>
+                                    <p><i class="bi bi-shield-fill-check"> </i>Cebola roxa</p>
+                                    <p><i class="bi bi-shield-fill-check"> </i>Queijo prato</p>
+                                    <p><i class="bi bi-shield-fill-check"> </i>Alface</p>
+                                    <p><i class="bi bi-shield-fill-check"> </i>Tomate</p>
+                                </div>
+                            </div>
+                            <div class="burger vhagar-burger">
+                                <img src="img/ATT/burger/vhagar-burger.png" height="300px" alt="">
+                            </div>
+                        </div>
+                        <div class="container-card caraxes-card">
+                            <div class="burger balerion-burger">
+                                <img src="img/ATT/burger/caraxes-burger.png" height="235px" alt="">
+                            </div>
+                            <div class="descricao">
+                                <p>Representando um dos maiores e mais antigos dragões da família Targaryen, apresentamos nosso
+                                    lanche "Caraxes".</p>
+                                <div class="composicao">
+                                    <p><i class="bi bi-shield-fill-check"> </i>Pão tradicional"</p>
+                                    <p><i class="bi bi-shield-fill-check"> </i>150g de frango desfiado</p>
+                                    <p><i class="bi bi-shield-fill-check"> </i>Cebola roxa</p>
+                                    <p><i class="bi bi-shield-fill-check"> </i>Picles</p>
+                                    <p><i class="bi bi-shield-fill-check"> </i>Alface</p>
+                                    <p><i class="bi bi-shield-fill-check"> </i>Tomate</p>
+                                    <p><i class="bi bi-shield-fill-check"> </i>Molho especial da Casa</p>
+                                </div>
+                            </div>
+                            <div class="caraxes"></div>
+                        </div>   
+                    </div>
+
+                    <div id="temp2" class="tab-pane container-grid p-4">
+                        <div class="space row row-gap-5 d-flex justify-content-center">
+                            <div class="align col-sm-12 col-md-6 col-lg-4">
+                                <div class="descricao">
+                                    <h2>Temporada 2</h2>
+                                    <p>No Colégio UA, nem mesmo um ataque violento pode atrapalhar seu evento de maior prestígio: o festival de esportes da escola. Reconhecido 
+                                        em todo o Japão, este festival é uma oportunidade para os aspirantes a heróis mostrarem suas habilidades, tanto para o público quanto para os 
+                                        possíveis recrutadores.
+                                        No entanto, o caminho para a glória nunca é fácil, especialmente para Izuku Midoriya – cuja individualidade possui grande força bruta, mas também é 
+                                        extremamente ineficiente. Empurrado contra seus talentosos colegas de classe, como o fogo e o gelo que empunham Shoto Todoroki, Izuku deve utilizar 
+                                        sua inteligência afiada e dominar seus arredores para alcançar a vitória e provar ao mundo o seu valor.</p>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-5 d-flex justify-content-center">
+                                <div class="wallpaper">
+                                    <img src="img/season/season-2.png">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="temp3" class="tab-pane container-grid p-4">
+                        <div class="space row row-gap-5 d-flex justify-content-center">
+                            <div class="align col-sm-12 col-md-6 col-lg-4">
+                                <div class="descricao">
+                                    <h2>Temporada 3</h2>
+                                    <p>O verão está aí, e os heróis das Classes 1-A e 1-B vão para o campo de treinamento mais difícil de suas vidas! Um grupo de profissionais experientes 
+                                        levam as individualidades de todos a novas alturas enquanto os alunos enfrentam um desafio opressor após o outro. os elementos neste local secreto 
+                                        se tornam a menor de suas preocupações quando o treinamento de rotina se transforma em uma luta crítica pela sobrevivência.</p>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-5 d-flex justify-content-center">
+                                <div class="wallpaper">
+                                    <img src="img/season/season-3.png">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="temp4" class="tab-pane container-grid p-4">
+                        <div class="space row row-gap-5 d-flex justify-content-center">
+                            <div class="align col-sm-12 col-md-6 col-lg-4">
+                                <div class="descricao">
+                                    <h2>Temporada 4</h2>
+                                    <p>A temporada começa onde a 3ª temporada terminou com a introdução do The Big 3, e o programa de Residência de Heróis sendo estendido para os alunos 
+                                        do Primeiro Ano. Segue-se Izuko, Ochaco, Tsuyu, Eijiro com a participação de Mirio, Nejire e Tamaki do Terceiro Ano na Residência de Heróis e da 
+                                        Incursão aos Oito Preceitos da Morte com suas respectivas Agências de Herói designadas. Enquanto isso, Katsuki e Shoto participam do Curso Corretivo 
+                                        de Licença Provisória.</p>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-5 d-flex justify-content-center">
+                                <div class="wallpaper">
+                                    <img src="img/season/season-4.png">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+        <!--EBAC-->
+        <section id="contato" class="pt5 pb5">
+            <div class="container">
+                <div class="row">
+                    <div class="titulo titulo-contato"></div>
+                </div>
+                <div class="container-row row text-white">
+                    <div class="col-md-7 mb-5">
+                        <form id="validacao">
+                            <div class="placeArea">
+                                <input type="text" required class=" form-label" />
+                                <label for="nome">Nome</label>
+                            </div>
+                            
+                            <div class="placeArea">
+                                <input type="email" required class=" form-label" />
+                                <label for="email">Email</label>
+                            </div>
+                            <div class="placeArea">
+                                <input type="tel" required class=" form-label" />
+                                <label for="telefone">Telefone</label>
+                            </div>
+                            <div class="placeArea">
+                                <textarea class="form-control" id="mensagem" required></textarea>
+                                <label for="telefone">Mensagem</label>
+                            </div>
+                            <button type="submit" class="validarDados fw-bold">Enviar</button>
+                        </form>
+
+
+
+
+
+
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="section-title fs-4">Redes Sociais</h3>
+                            <ul class="social-links">
+                                <li class="fs-5">
+                                    <a href="#" class="text-white">
+                                        <i class="bi bi-facebook"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5 ms-1 me-1">
+                                    <a href="#" class="text-white">
+                                        <i class="bi bi-instagram"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="#" class="text-white">
+                                        <i class="bi bi-whatsapp"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <h3>Endereço</h3>
+                            <p>Rua Teste Exemplo N° 145, Bairro Bootstrap - São Paulo, SP</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script src="function.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,319 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #111;
+    font-family: "Caudex", serif;
+}
+header,
+.logo-targ{
+    transition: all ease 0.5s;
+}
+.nav-pills .nav-link.active{
+    background: rgb(2,0,36);
+    background: linear-gradient(146deg, rgba(2,0,36,1) 0%, rgba(229,207,159,1) 0%, rgba(127,110,81,1) 100%);
+    color: #000;
+}
+.nav-link{
+    font-weight: bold;
+    color: #E5CF9F;
+    &:hover{
+        color: #FFF;
+    }
+}
+.nav-pills .nav-link.nav-cardapio.active{
+    background: #000;
+    color: #FFF;
+}
+.nav-cardapio{
+    font-weight: bold;
+    color: #000;
+    &:hover{
+        color: #999;
+    }
+}
+ul.nav{
+    gap: 2rem;
+}
+.nav-card{
+    gap: 3rem;
+}
+.blur{
+    background: rgba(0, 0, 0, 0.6);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4.4px);
+    -webkit-backdrop-filter: blur(4.4px);
+}
+.carousel-item{
+    height: 100vh;
+}
+.shadow-Y{
+    width: inherit;
+    height: inherit;
+    background: linear-gradient(to top, #111 1%, transparent 30%);
+}
+.item-count{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.first-item{
+    background-image: url('img/ATT/slide-1.jpg');
+}
+.second-item{
+    background-image: url('img/ATT/slide-2.jpg');
+}
+.third-item{
+    background-image: url('img/ATT/slide-3.jpg');
+}
+.carousel-caption{
+    padding-bottom: 5rem;
+}
+#eventos,
+#cardapio{
+    width: 100%;
+    min-height: 100vh;
+    padding: 4rem 0;
+}
+#cardapio{
+    background-color: #EDE7E1;
+}
+.container-food{
+    padding: 3rem;
+}
+.tab-content{
+    font-family: "Rock Salt", cursive;
+    max-width: 100vw;
+}
+#contato{
+    width: 100%;
+    min-height: 40vh;
+    padding: 4rem 0;
+}
+.titulo{
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    background-position: center;
+    filter: invert(100%);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.titulo-eventos{
+    background-image: url('img/ATT/titulos/Eventos.png');
+}
+.titulo-cardapio{
+    background-image: url('img/ATT/titulos/Cardapio.png');
+    filter: invert(0%);
+}
+.titulo-contato{
+    background-image: url('img/ATT/titulos/Contato.png');
+}
+.container-card{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    padding: 2rem 10rem;
+    /*border: 1px solid blue;*/
+}
+.balerion-card{
+    justify-content: right;
+}
+.balerion{
+    display: flex;
+    width: 25rem;
+    height: 100%;
+    background: url('img/ATT/dragao/balerion.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    /*border: 1px solid violet;*/
+}
+.burger{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*border: 1px solid yellow;*/
+}
+.descricao{
+    /*border: 1px solid red;*/
+    width: 45rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.descricao p{
+    text-align: center;
+}
+.vhagar-card{
+
+    justify-content: left;
+}
+.vhagar{
+    display: flex;
+    width: 25rem;
+    height: 100%;
+    background: url('img/ATT/dragao/vhagar.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.caraxes-card{
+    justify-content: right;
+}
+.caraxes{
+    display: flex;
+    width: 25rem;
+    height: 100%;
+    background: url('img/ATT/dragao/caraxes.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.social-links li{
+    list-style: none;
+    display: inline;
+}
+.social-links a{
+    text-decoration: none;
+}
+#contato button{
+    background-color: #FFF;
+    color: #000;
+}
+.container-row{
+    padding-top: 5rem;
+}
+
+/*TESTE FORM*/
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+input{
+    width: 90%;
+    height: 3rem;
+    padding: 0 1rem;
+    background-color: transparent;
+    border: .15rem solid #FFF;
+    border-radius: 0 .8rem 0 .8rem;
+    color: #FFF;
+    font-size: 1rem;
+}
+textarea.form-control{
+    width: 90%;
+    height: 6rem;
+    padding: 0 1rem;
+    background-color: transparent !important;
+    border: .15rem solid #FFF;
+    border-radius: 0 .8rem 0 .8rem;
+    color: #FFF;
+    font-size: 1rem;
+}
+input,
+textarea.form-control[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;   
+}
+/*ALTERNANDO O PLACEHOLDER*/
+.placeArea{
+    position: relative;
+}
+label{
+    position: absolute;
+    left: 1rem;
+    top: .8rem;
+    font-size: .95rem;
+    color: #BBB;
+    transition: ease-in-out .2s;
+    opacity: 1;
+    pointer-events: none;
+}
+input:focus + label,
+input:valid + label,
+textarea.form-control:focus + label,
+textarea.form-control:valid + label{
+    background-color: #111;
+    color: #E5CF9F;
+    font-size: .73rem;
+    top: -9px;
+    padding: 0 .3rem;
+}
+ input:focus{
+    box-shadow: 0 0 0 0;
+    border: .15rem solid #E5CF9F;
+    outline: 0;
+}
+textarea.form-control:focus{
+    box-shadow: 0 0 0 0;
+    border: .15rem solid #E5CF9F !important;
+    outline: 0;
+    color: #FFF !important;
+}
+textarea.form-control:focus, select:focus{
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+}
+button.validarDados{
+    width: 15rem;
+    height: 3rem;
+    background: linear-gradient(146deg, rgba(2,0,36,1) 0%, rgba(229,207,159,1) 0%, rgba(127,110,81,1) 100%);
+    color: #FFF;
+    border: none;
+    border-radius: 0 .8rem 0 .8rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+
+
+
+
+
+/*MOBILE*/
+@media(max-width: 1420px){
+    body{
+        min-width: 100vw;
+    }
+    header{
+        max-width: 100vw;
+    }
+    .carousel-item{
+        height: 60vh;
+    }
+    .item-count{
+        background-size: cover;
+    }
+    .nav-card{
+        gap: .75rem;
+    }
+    .container-food{
+        padding: 3rem 0;
+    }
+    .tab-content{
+        padding: 3rem 0;
+    }
+    #cardapio .container-card{
+        height: 60vh;
+        padding: 2rem 0;
+    }
+    #cardapio .burger{
+        margin-left: -6rem;
+    }
+    #cardapio .vhagar-burger{
+        margin-right: -6rem;
+    }
+    #cardapio .descricao{
+        width: 40rem;
+        padding: 0;
+    }
+    #cardapio .balerion,
+    #cardapio .vhagar,
+    #cardapio .caraxes{
+        width: 0;
+    }
+}
