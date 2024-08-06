@@ -11,6 +11,7 @@ body{
 header,
 .logo-targ{
     transition: all ease 0.5s;
+    text-transform: uppercase;
 }
 .nav-pills .nav-link.active{
     background: rgb(2,0,36);
