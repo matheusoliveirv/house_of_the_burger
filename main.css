@@ -61,13 +61,13 @@ ul.nav{
     background-position: center;
 }
 .first-item{
-    background-image: url('img/ATT/slide-1.jpg');
+    background-image: url('img/slide-1.jpg');
 }
 .second-item{
-    background-image: url('img/ATT/slide-2.jpg');
+    background-image: url('img/slide-2.jpg');
 }
 .third-item{
-    background-image: url('img/ATT/slide-3.jpg');
+    background-image: url('img/slide-3.jpg');
 }
 .carousel-caption{
     padding-bottom: 5rem;
@@ -103,14 +103,14 @@ ul.nav{
     background-size: contain;
 }
 .titulo-eventos{
-    background-image: url('img/ATT/titulos/Eventos.png');
+    background-image: url('img/titulos/Eventos.png');
 }
 .titulo-cardapio{
-    background-image: url('img/ATT/titulos/Cardapio.png');
+    background-image: url('img/titulos/Cardapio.png');
     filter: invert(0%);
 }
 .titulo-contato{
-    background-image: url('img/ATT/titulos/Contato.png');
+    background-image: url('img/titulos/Contato.png');
 }
 .container-card{
     width: 100%;
@@ -126,7 +126,7 @@ ul.nav{
     display: flex;
     width: 25rem;
     height: 100%;
-    background: url('img/ATT/dragao/balerion.png');
+    background: url('img/dragao/balerion.png');
     background-size: contain;
     background-repeat: no-repeat;
     /*border: 1px solid violet;*/
@@ -157,7 +157,7 @@ ul.nav{
     display: flex;
     width: 25rem;
     height: 100%;
-    background: url('img/ATT/dragao/vhagar.png');
+    background: url('img/dragao/vhagar.png');
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -168,7 +168,7 @@ ul.nav{
     display: flex;
     width: 25rem;
     height: 100%;
-    background: url('img/ATT/dragao/caraxes.png');
+    background: url('img/dragao/caraxes.png');
     background-size: contain;
     background-repeat: no-repeat;
 }
