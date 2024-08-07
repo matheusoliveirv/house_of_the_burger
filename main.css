@@ -12,6 +12,7 @@ header,
 .logo-targ{
     transition: all ease 0.5s;
     text-transform: uppercase;
+    font-weight: bold;
 }
 .nav-pills .nav-link.active{
     background: rgb(2,0,36);
@@ -120,14 +121,22 @@ ul.nav{
     padding: 2rem 10rem;
     /*border: 1px solid blue;*/
 }
-.balerion-card{
+.first-card{
     justify-content: right;
 }
 .balerion{
+    background: url('img/dragao/balerion.png');
+}
+.vhagar{
+    background: url('img/dragao/vhagar.png');
+}
+.caraxes{
+    background: url('img/dragao/caraxes.png');
+}
+.lineart{
     display: flex;
     width: 25rem;
     height: 100%;
-    background: url('img/dragao/balerion.png');
     background-size: contain;
     background-repeat: no-repeat;
     /*border: 1px solid violet;*/
@@ -150,28 +159,11 @@ ul.nav{
 .descricao p{
     text-align: center;
 }
-.vhagar-card{
-
+.second-card{
     justify-content: left;
 }
-.vhagar{
-    display: flex;
-    width: 25rem;
-    height: 100%;
-    background: url('img/dragao/vhagar.png');
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-.caraxes-card{
+.third-card{
     justify-content: right;
-}
-.caraxes{
-    display: flex;
-    width: 25rem;
-    height: 100%;
-    background: url('img/dragao/caraxes.png');
-    background-size: contain;
-    background-repeat: no-repeat;
 }
 .social-links li{
     list-style: none;
