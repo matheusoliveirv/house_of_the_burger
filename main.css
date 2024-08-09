@@ -80,6 +80,9 @@ ul.nav{
     min-height: 100vh;
     padding: 4rem 0;
 }
+#eventos{
+    min-height: 85vh;
+}
 #cardapio{
     background-color: #EDE7E1;
 }
